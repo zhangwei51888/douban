@@ -1,0 +1,279 @@
+﻿*{
+	margin: 0px;
+	padding: 0px;
+	font-family:Helvetica,arial,sans-serif;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+img{
+	display: block;
+}/* 导航栏 */
+div.title{
+	width: 950px;
+	height: 89px;
+	margin: 0px auto;
+	position: relative;
+}
+
+div.title img{
+	margin-top: 30px;
+	margin-right: 29px;
+	float: left;
+}
+div.text{
+	width: 272px;
+	height: 34px;
+	float: left;
+	margin-top: 31px;
+	position: relative;
+}
+div.text input[type="text"]{
+	display: block;
+	width: 240px;
+	height: 12px;
+	outline: none;
+	padding: 9px 25px 9px 5px;
+	color: black;
+	border: 1px solid #c3c3c3;
+}
+div.text input[type="text"]::-webkit-input-placeholder { /* WebKit browsers */
+　　color:red;
+　　}
+div.text input[type="text"]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+　　color:red;
+　　}
+div.text input[type="text"]::-moz-placeholder { /* Mozilla Firefox 19+ */
+　　color:red;
+　　}
+div.text input[type="text"]::-ms-input-placeholder { /* Internet Explorer 10+ */
+　　color:red;
+　　}
+div.title input[type="submit"]{
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	z-index: 10;
+	right: 1px;
+	top: 1px;
+	background: url(../images/icon_01.jpg) no-repeat center;
+	border: none;
+	cursor: pointer;
+}
+div.title div.layout{
+	position: absolute;
+	right: 0px;
+	top: 37px;
+}
+div.layout a{
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+	margin-right: 20px;
+}
+span.title_01{
+	display: block;
+	width: 40px;
+	height: 20px;
+	background: url(../images/title/read.jpg) no-repeat;
+}
+span#movie{
+	background: url(../images/title/movie.jpg) no-repeat;
+}
+span#music{
+	background: url(../images/title/music.jpg) no-repeat;
+}
+span#group{
+	background: url(../images/title/group.jpg) no-repeat;
+}
+span#city{
+	background: url(../images/title/city.jpg) no-repeat;
+}
+span#FM{
+	background: url(../images/title/FM.jpg) no-repeat;
+}
+span#time{
+	background: url(../images/title/time.jpg) no-repeat;
+}
+a#right_layout{
+	margin: 0px;
+}
+a#right_layout span{
+	background: url(../images/title/market.jpg) no-repeat;
+}
+
+/* 登录 */
+div.login{
+	width: 100%;
+	height: 178px;
+	background-color: #f1faf1;
+	min-width: 950px;
+	margin-bottom: 35px;
+	background-image: url(../images/doubanapp5_bg.png);
+	background-position: 400px 0px;
+	background-repeat: no-repeat;
+}
+div.login_01{
+	width: 950px;
+	height: 147px;
+	margin: 0px auto;
+	padding-top: 31px;
+
+	background-image: url(../images/doubanapp5.png);
+	background-position: 0px -150px;
+	background-repeat: no-repeat;
+}
+div.douban{
+	margin: 0px 0px 0px 431px;
+	width: 152px;
+	height: 103px;
+	float: left;
+}
+div.douban h1{
+	font-size: 25px;
+	font-weight: 700;
+}
+div.douban h1 span{
+	font-weight: 400;
+	margin-left: 10px;
+}
+div.douban p{
+	font-size: 12px;
+	letter-spacing: 10px;
+	margin-top: 3px;
+	width: 154px;
+}
+div.douban a{
+	width: 114px;
+	height: 30px;
+	background:#00b51d;
+	font-size: 13px;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	line-height: 30px;
+	margin-top: 21px;
+	border-radius: 1px;
+	vertical-align: middle;
+}
+div.douban span.code_scan{
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	border: solid 1px #48aa0d;
+	vertical-align: middle;
+	margin-top: 21px;
+	border-radius: 1px;
+	margin-left: 6px;
+	position: relative;
+}
+span.code_scan img{
+	display: block;
+	width: 28px;
+	height: 28px;
+}
+span.code_scan span.code_scan_01{
+	display: block;
+	border: 1px solid #4a480d;
+	position: absolute;
+	z-index: 10;
+	padding: 20px 20px 17px 20px;
+	font-size: 12px;
+	text-align: center;
+	white-space: nowrap;
+	background-color: #fff;
+	top: -1px;
+	left: -1px;
+	display: none;
+}
+span.code_scan:hover span.code_scan_01{
+	display: block;
+}
+span.code_scan_01 img{
+	width: 160px;
+	height: 160px;
+}
+span.code_scan_01 span{
+	margin-top: 13px;
+	display: block;
+}
+
+
+div.login_02{
+	float: right;
+	width: 270px;
+	height: 129px;
+	position: relative;
+}
+div.login_02 input[type="text"],div.login_02 input[type="checkbox"]{
+	display: block;
+	font: 11px/11px arial;
+	color: #000;
+}
+div.login_02 input[type="text"]{
+	padding: 8px 8px 8px 8px;
+	outline: none;
+	border: 1px solid #dbe5db;
+	width: 252px;
+	margin-bottom: 4px;
+}
+div.login_02 input[type="submit"]{
+	display: inline-block;
+	margin-top: 2px;
+	font: 12px/12px arial;
+	width: 133px;
+	height: 29px;
+	border: solid 1px #30a080;
+	border-radius: 2px;
+	background: #30a080;
+	color: #fff;
+	margin-right: 4px;	
+	cursor: pointer;
+}
+div.login_02 input.register{
+	background-color: #fff;
+	color: #30a080;
+	margin: 0px;	
+}
+div.login_02 input.remeber,div.login_02 span.remeber{
+	display: inline-block;
+	font: 11px/11px arial;
+	vertical-align: middle;
+}
+div.login_02 span.remeber{
+	margin-left: 3px;
+}
+div.login_02 a.icon{
+	display: inline-block;
+	position: relative;
+	width: 14px;
+	height: 12px;
+	vertical-align: middle;
+}
+div.login_02 a.wechat{
+	background-image: url(../images/icon_02.jpg);
+	left: 183px;
+}
+div.login_02 a.sina{
+	background-image: url(../images/icon_03.jpg);
+	left: 190px;
+}
+div.login_02 span.help{
+	position: absolute;
+	font: 12px/12px arial;
+	color: #cfd6e3;
+	right: 11px;
+	top: 48px;
+	z-index: 10;
+}
+div.login_02 span.help:hover{
+	color: #999;
+}
+div.login_02_bottom{
+	height: 17px;
+	margin-top: 8px;
+}

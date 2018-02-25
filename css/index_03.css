@@ -1,0 +1,315 @@
+/* 市集  */
+div.market{
+	height: 775px;
+	background: #f7f7f7;
+	padding-top: 39px;
+}
+div.market div.market_01{
+	width: 950px;
+	height: 775px;
+	margin:0px auto;
+}
+
+/* 市集  左边*/
+
+div.market_01 div.market_left{
+	width: 120px;
+	float: left;
+}
+div.market_left h1{
+	font: 24px/24px arial;
+	margin-bottom: 11.5px;
+}
+div.market_left h1 a{
+	color: #1f9432;
+}
+div.market_left ul li{
+	font: 14px/27.5px arial;
+}
+div.market_left ul li a{
+	color: #343434;
+}
+div.market_left ul li a:hover,div.market_left h1 a:hover{
+	color: #fff;
+	background: #27a;
+}
+
+/* 市集  中间*/
+
+div.market_center{
+	width: 566px;
+	height: 630px;
+	margin-bottom: 33px;
+	float: left;
+}
+ h2.market_title{
+	font-size: 15px;
+	line-height: 23px;
+	color: #072;
+	font-weight:normal;
+	margin-bottom: 22px;
+}
+ h2.market_title span.more{
+	font: 12px/12px arial;
+}
+ h2.market_title span.more a{
+	color: #37a;
+}
+ h2.market_title span.more a:hover{
+	color: #fff;
+	background: #27a;
+}
+div.market_center div.market_pic{
+	height: 282px;
+	line-height: 22px;
+	font-size: 12px;
+	margin-bottom: 23px;
+}
+div.market_center div.market_pic div{
+	width: 110px;
+	height: 131px;
+	float: left;
+}
+div.market_center div.market_pic a{
+	color: #37a;	
+}
+div.market_center div.market_pic div:first-child{
+	width: 250px;
+	height: 282px;
+	line-height: 31px;
+	font-size: 14px;
+	margin-right: 20px;
+}
+span.market_center_name:hover{
+	color: #fff;
+	background: #27a;
+}
+div.market_center div.market_pic div span.market_prize{
+	float: right;
+	color: #6a6a6a;
+}
+div.market_center div.market_pic div img{
+	display: block;
+	width: 110px;
+	height: 110px;
+}
+div.market_center div.market_pic div:first-child img{
+	width: 250px;
+	height: 250px;
+}
+div.market_center div.market_pic div:first-child a{
+	display: block;
+}
+div.market_pic div.pic_top{
+	margin-bottom: 9px;
+}
+div.market_pic div.pic_left{
+	margin-right: 20px;
+}
+
+/* 市集 右边*/
+
+div.market_right{
+	float: left;
+	width: 264px;
+}
+div.market_right ul{
+	height: 288px;
+}
+div.market_right ul li{
+	height: 60px;
+	margin-bottom: 16px;
+}
+div.market_right ul li:last-child{
+	margin-bottom: 0px;
+}
+div.market_right ul li img{
+	display: block;
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+div.market_right ul li div{
+	width: 189px;
+	height: 60px;
+	float: left;
+	margin-left: 15px;
+	line-height: 20px;
+	font-size: 13px;
+}
+div.market_right ul li div p:first-child{
+	line-height: 18px;
+	font-size: 13px;
+	margin-bottom: 6px;
+}
+div.market_right ul li div p:first-child a{
+	color: #37a;
+}
+div.market_right ul li div p:first-child a:hover{
+	color: #FFF;
+	background: #27a;
+}
+div.market_right ul li div p:last-child{
+	font-size: 12px;
+}
+
+/* 同城 */
+
+div.city{
+	margin:0px auto;
+	width: 950px;
+	height:499px;
+	padding-top: 39px;
+	border-bottom: 1px dashed #dcdcdc;
+}
+
+
+/* 同城  左边*/
+
+div.city_left{
+	width: 120px;
+	float: left;
+}
+div.city_left h1{
+	font: 24px/24px arial;
+	margin-bottom: 11.5px;
+}
+div.city_left h1 a{
+	color: #ec5303;
+}
+div.city_left ul li{
+	width: 88px;
+	font: 14px/22px arial;
+	margin-bottom: 5px;
+}
+div.city_left ul li a{
+	color: #643;
+}
+
+/* 同城  中间*/
+
+div.city_center{
+	float: left;
+	width: 565px;
+}
+div.city_center h2{
+	font: 15px/23px arial;
+	color: #072;
+	margin-bottom: 12px;
+}
+div.city_center h2 span:last-child{
+	font: 12px/12px arial;
+}
+div.city_center h2 span.point{
+	vertical-align: 3px;
+	font: 10px/1px arial;
+	white-space: pre;	
+}
+div.city_center h2 span a{
+	color: #643;
+}
+div.city_center h2 span a:hover{
+	color: #fff;
+	background: #27a;
+}
+div.city_center ul{
+	height: 344px;
+	margin-left: 1px;
+}
+div.city_center ul li{
+	float: left;
+	width: 268px;
+
+}
+div.city_center ul li.city_center_list_top{
+	margin-bottom: 41px;
+}
+div.city_center ul li img{
+	display: block;
+	width: 70px;
+	height: 90px;
+	float: left;
+}
+div.city_center ul li div.city_detail{
+	width: 161px;
+	float: left;
+	margin-left: 10px;
+}
+div.city_detail h3{
+	font: 13px/18px arial;
+	margin-bottom: 4px;
+}
+div.city_detail h3 a{
+	color: #643;
+}
+div.city_detail h3 a span{
+	width: 54px;
+	height: 17px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 3px;
+	color: #fff;
+	background:#ff8263;
+	font-size: 12px;
+}
+div.city_detail h3 a:hover{
+	color: #fff;
+	background:#27a;
+}
+div.city_detail p{
+	font: 12px/19px arial;
+	color: #666;
+}
+
+/* 同城  右边*/
+
+div.city_right{
+	width: 265px;
+	float: left;
+}
+div.city_right h2{
+	font: 15px/23px arial;
+	color: #072;
+	margin-bottom: 16px;
+}
+div.city_right h2 span:last-child{
+	font: 12px/12px arial;
+}
+div.city_right h2 span.point{
+	vertical-align: 3px;
+	font: 10px/1px arial;
+	white-space: pre;	
+}
+div.city_right_activity{
+	height: 38px;
+	margin-bottom: 15px;
+}
+div.party{
+	height: 57px;
+}
+div.city_right_activity h3{
+	font: 14px/14px arial;
+	margin-bottom: 6px;
+}
+div.city_right_activity h3 a{
+	color: #333;
+}
+div.city_right_activity h3 a:hover{
+	color: #fff;
+	background-color: #27a;
+}
+div.city_right_activity ul{
+	height: 19px;
+}
+div.city_right_activity ul li{
+	font: 12px/19px arial;
+	float: left;
+	margin-right: 13px;
+}
+div.city_right_activity ul li a{
+	color: #643;
+}
+div.city_right_activity ul li a:hover{
+	color: #fff;
+	background-color: #27a;
+}
